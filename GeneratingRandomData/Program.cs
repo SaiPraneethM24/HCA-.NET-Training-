@@ -43,7 +43,7 @@ internal class Program
 
         // Generate 1000 fake patient records
         // Generate() is a method provided by Bogus
-        var patients = patientGenerator.Generate(1000);
+        var patients = patientGenerator.Generate(10);
 
         Console.WriteLine($"Generated {patients.Count} fake patients");
         Console.WriteLine();
@@ -61,7 +61,7 @@ internal class Program
         }
         
         Console.WriteLine();
-        Console.WriteLine("Remaining 990 records were generated but not displayed.");
+        Console.WriteLine("Only 10 records were generated");
        
     }
 }
