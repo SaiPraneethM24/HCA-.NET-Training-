@@ -62,7 +62,6 @@ internal class Program
         
         Console.WriteLine();
         Console.WriteLine("Remaining 990 records were generated but not displayed.");
-        string json = JsonConvert.SerializeObject(patients, Formatting.Indented);
-        Console.WriteLine(json);
+       
     }
 }
